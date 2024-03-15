@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="company_logo.png" />
+    <link rel="icon" type="image/x-icon" href="photos/company_logo.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -141,7 +141,7 @@
                     <img src="photos/check_symbol.png" /> Consectetur adipiscing
                     elit
                   </li>
-                  <li data-value="Value 3">
+                  <li data="Value 3">
                     <img src="photos/check_symbol.png" /> Luctus nec ullamcorper
                   </li>
                 </ul>
@@ -205,11 +205,10 @@
         </div>
       </div>
     </div>
-
-    <div class="container mt-4">
+    <div class="container outer-container">
       <div class="row">
         <!-- First Container -->
-        <div class="col-md-4">
+        <div class="col-md-7">
           <div class="container first-container">
             <p class="fs-6" style="color: #fd810a">KEY POINTS</p>
             <p class="fs-1 fw-bolder heading">
@@ -221,8 +220,10 @@
               neque cursus, ornare augue pellentesque,
             </p>
             <div class="container">
-              <!-- 1st progress bar-->
-              <p>Work Satisfaction: 96%</p>
+              <!--1st progress bar -->
+              <p class="progress-text">
+                <b>Work Satisfaction:</b> <span class="final-word-1">96%</span>
+              </p>
               <div class="progress custom-progress">
                 <div
                   class="progress-bar"
@@ -234,40 +235,101 @@
                 ></div>
               </div>
               <!--2nd progress bar-->
-              <p>Experienced Construction</p>
-              <div class="progress">
+              <p class="progress-text">
+                <b>Experienced Construction:</b>
+                <span class="final-word-2">98%</span>
+              </p>
+              <div class="progress custom-progress">
                 <div
                   class="progress-bar"
                   role="progressbar"
-                  style="width: 50%"
-                  aria-valuenow="50"
+                  style="width: 98%; background-color: #fd810a"
+                  aria-valuenow="98"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
               </div>
               <!--3rd Progress bar-->
-              <p class="progress-text">Innovative Technology</p>
-              <div class="progress">
+              <p class="progress-text">
+                <b>Innovative:</b><span class="final-word-3">95%</span>
+              </p>
+              <div class="progress custom-progress">
                 <div
                   class="progress-bar"
                   role="progressbar"
-                  style="width: 75%"
-                  aria-valuenow="75"
+                  style="width: 95%; background-color: #fd810a"
+                  aria-valuenow="95"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
+              </div>
+              <div class="contact-no d-flex">
+                <img src="photos/call-icon.png" alt="contact" />
+                <div class="contact-details">
+                  <p class="fw-semibold">Contact Us</p>
+                  <p class="fs-6">0761-8523-398</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <!-- Second Container -->
-        <div class="col-md-4 colored-container"></div>
+        <div
+          class="col-md-3 container colored-container"
+          style="background-color: #515151"
+        ></div>
 
         <!-- Third Container -->
-        <div class="col-md-4 text-container">
-          <p></p>
-          <p></p>
+        <div class="col-md-2 text-container">
+          <p class="fs-1 award-no">25<sup>+</sup></p>
+          <p class="fs-6 award-details">Years Experience</p>
+          <p class="fs-1 award-no">450<sup>+</sup></p>
+          <p class="fs-6 award-details">Happy Clients</p>
+          <p class="fs-1 award-no">300<sup>+</sup></p>
+          <p class="fs-6 award-details">Project Done</p>
+          <p class="fs-1 award-no">20<sup>+</sup></p>
+          <p class="fs-6 award-details">Construct Award</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid recent-project">
+      <div class="project-intro">
+        <p class="fs-6"><span style="color: #fd810a">RECENT PROJECTS</span></p>
+        <h1>Discover Our Recent Construction</h1>
+      </div>
+      <div class="project-content">
+        <p class="fs-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
+          erat nibh. Sed rutrum turpis quis lacinia sollicitudin. Sed ac neque
+          cursus, ornare augue pellentesque,
+        </p>
+      </div>
+      <!-- Bg colored containers-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <div class="block"></div>
+          </div>
+          <div class="col">
+            <div class="block"></div>
+          </div>
+          <div class="col">
+            <div class="block3">
+              <div class="block-details">
+                <h6>Project 3</h6>
+                <h4 classs="fs-1">Real Estate Building</h4>
+                <p>
+                  Click edit to change this text. Lorem ipsum dolor sit amet,
+                  cctetur adipiscing elit. Ut elit tellus, luctus nec
+                  ullamcorper mattis, pulvinar dapibus leo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="block"></div>
+          </div>
         </div>
       </div>
     </div>

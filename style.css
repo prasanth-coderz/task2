@@ -13,7 +13,7 @@ body {
   padding-bottom: 10px;
 }
 
-.headerbutton button {  
+.headerbutton button {
   font-size: 14px;
   margin-left: 300px;
   margin-top: 25px;
@@ -34,13 +34,12 @@ body {
   width: 36px;
   height: 36px;
   top: 53px;
-  left: 735px;
   align-items: center;
 }
 
 .location_details {
   white-space: nowrap;
-  margin-top: 20px;
+  margin-top: 3px;
   padding-left: 10px;
 }
 
@@ -63,7 +62,7 @@ body {
 
 .mail_details {
   padding-left: 10px;
-  margin-top: 20px;
+  margin-top: 3px;
 }
 
 .mail_details p {
@@ -158,10 +157,6 @@ body {
   height: 40px;
 }
 
-.first-container {
-  margin-top: 200px;
-}
-
 .first-container p {
   width: 532px;
   left: 255px;
@@ -177,3 +172,136 @@ body {
   font-family: "Raleway";
 }
 
+.custom-progress {
+  width: 600px;
+}
+
+.colored-container {
+  width: 422px;
+  height: 500px;
+}
+.contact-no img {
+  padding-right: 20px;
+  padding-top: 30px;
+  width: 80px;
+  height: 80px;
+  top: 2912px;
+  left: 255px;
+}
+
+.contact-details {
+  padding-top: 30px;
+}
+
+.contact-details p {
+  margin-top: 5px;
+  max-height: 10px;
+}
+
+.outer-container {
+  margin-top: 200px;
+}
+
+.progress-text {
+  line-height: 2px;
+  padding-top: 40px;
+}
+
+.final-word-1 {
+  margin-left: 560px;
+  font-family: "Raleway";
+}
+
+.final-word-2 {
+  margin-left: 570px;
+  font-family: "Raleway";
+}
+
+.final-word-3 {
+  margin-left: 480px;
+  font-family: "Raleway";
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-container .award-no {
+  color: #fd810a;
+  font-family: "Roboto";
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+}
+
+.text-container .award-details {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.recent-project {
+  background-color: #f8fbff;
+  margin-top: 100px;
+  padding-top: 130px;
+  width: 1920px;
+  height: 630px;
+  top: 3144px;
+}
+
+.project-intro {
+  text-align: center;
+}
+
+.project-intro p {
+  padding-bottom: 40px;
+}
+
+.project-intro h1 {
+  width: 690px;
+  font-family: "Roboto";
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+}
+
+.project-content {
+  width: 670px;
+  font-family: "Raleway";
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.block {
+  margin-top: 20px;
+  height: 310px;
+  background-color: #515151;
+}
+
+.block3 {
+  margin-top: 20px;
+  height: 310px;
+  background-color: #0e0e37cc;
+  color: white;
+}
+
+.block-details {
+  padding-top: 160px;
+  padding-left: 20px;
+}
+
+.block-details h4 {
+  font-size: 20px;
+}
+
+.block-details p {
+  font-size: 14px;
+  font-family: "Raleway";
+}
