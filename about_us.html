@@ -334,13 +334,53 @@
       </div>
     </div>
 
-    <!--FAQ'S bg-design  -->
-    <div class="container faq-section">
-      <div class="row">
-        <div class="col-md-6 bg-block">
-          <!--bg color added in CSS sheet-->
+    <!--FAQ's bg-design  -->
+    <div class="container">
+      <div class="faq-section d-flex">
+        <div class="bg-block">
+          <div class="company-success">
+            <img src="photos/Counter.png" />
+          </div>
         </div>
-        <div class="col-md-4 company-history"></div>
+        <div class="faq-content">
+          <p class="fs-6" span style="color: #fd810a">FAQ UNVEILED</p>
+          <h2 class="faq-heading">Your Common Construction Questions</h2>
+          <p class="fs-6 faq-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
+            erat nibh. Sed rutrum turpis quis lacinia sollicitudin. Sed ac neque
+            cursus, ornare augue pellentesque,
+          </p>
+          <div class="question1 d-flex">
+            <p span style="color: #fd810a">
+              What services does your construction company offer?
+            </p>
+            <img src="photos/down-arrow.png" />
+          </div>
+          <hr span style="width: 630px; color: #fd810a" />
+          <p class="faq-answer">
+            In non mauris quis ex placerat iaculis. Maecenas sed auctor arcu.
+            Suspendisse egestas pellentesque quam sit amet cursus. Nulla
+            pharetra euismod tellus eu sollicitudin. Phasellus vehicula, turpis
+            vel fermentum molestie.
+          </p>
+          <div class="question2 d-flex">
+            <p>How can I track the progress of my construction project?</p>
+            <img src="photos/arrow-up.png" />
+          </div>
+          <hr span style="width: 630px" />
+          <div class="question3 d-flex">
+            <p>
+              What types of materials do you use in your construction projects?
+            </p>
+            <img src="photos/arrow-up.png" />
+          </div>
+          <hr span style="width: 630px" />
+          <div class="question4 d-flex">
+            <p>Can you provide examples of your past construction projects?</p>
+            <img src="photos/arrow-up.png" />
+          </div>
+          <hr span style="width: 630px" />
+        </div>
       </div>
     </div>
 
@@ -366,7 +406,7 @@
 
     <!--Team Profile-->
 
-    <div class="container-fluid team-profile">
+    <div class="container team-profile">
       <div class="project-intro">
         <p class="fs-6">
           <span style="color: #fd810a">PROYEK TEAM</span>
@@ -383,13 +423,19 @@
       <div class="container d-flex">
         <div class="col bg-color-1">
           <img class="social-media" src="photos/Social Media.png" />
+          <h4>Tony Wachtman</h4>
+          <p>Project Manager</p>
         </div>
 
         <div class="col bg-color-2">
           <img class="social-media" src="photos/Social Media.png" />
+          <h4>Devon Lane</h4>
+          <p>Civil Engineer</p>
         </div>
         <div class="col bg-color-3">
           <img class="social-media" src="photos/Social Media.png" />
+          <h4>McKinney Zuel</h4>
+          <p>Site Manager</p>
         </div>
       </div>
     </div>
@@ -443,13 +489,14 @@
                         placeholder="Your Name"
                       />
                     </div>
-                    <div>
+                    <div class="email-sec">
                       <label>Email</label>
                       <input
                         class="in"
                         type="email"
                         class="form-control"
                         placeholder="Your email"
+                        required
                       />
                     </div>
                   </div>
@@ -460,6 +507,8 @@
                         class="inn"
                         type="text"
                         placeholder="Your Subject"
+                        required
+                        style="width: 470px; height: 50px"
                       />
                     </div>
                   </div>
@@ -470,6 +519,12 @@
                         class="inp1"
                         type="text"
                         placeholder="Your Message"
+                        required
+                        style="
+                          width: 470px;
+                          height: 250px;
+                          padding-bottom: 200px;
+                        "
                       />
                     </div>
                   </div>
@@ -477,7 +532,7 @@
                     class="btn"
                     style="
                       background-color: #fd810a;
-                      width: 370px;
+                      width: 475px;
                       color: #f5f5f5;
                     "
                   >
@@ -516,7 +571,9 @@
       <div class="testimonial mt-5">
         <div class="row">
           <div class="col-4">
-            <div class="client-review d-flex justify-content-center">
+            <div
+              class="client-review d-flex justify-content-center align-items-center"
+            >
               <img src="photos/quote.png" />
             </div>
             <div>
@@ -551,7 +608,9 @@
             </div>
           </div>
           <div class="col-4">
-            <div class="client-review d-flex justify-content-center">
+            <div
+              class="client-review d-flex justify-content-center align-items-center"
+            >
               <img src="photos/quote.png" />
             </div>
             <div>
@@ -569,120 +628,123 @@
       </div>
     </div>
 
-    <!--Footer-->
+    <!--Footer Section starts here-->
 
+    <!--Image overlap-->
     <div class="container">
-      <div class="CTA" style="background-color: #fd810a">
-        <div class="container d-flex justify-content-center">
-          <div class="" style="width: 500px; height: 130px">
-            <div class="headtxt mt-5">
-              <h2
-                class="d-flex justify-content-start p-3 mt-4 fw-bold footer-heading"
-                style="width: 500px"
-              >
-                Click for Expert Construction Services
-              </h2>
-              <p class="txt3 text-left p-2 mt-4 footer-desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                vel erat nibh. Sed rutrum turpis quis lacinia sollicitudin. Sed
-                ac neque cursus, ornare augue pellentesque,
-              </p>
-              <div class="cd d-flex justify-content-start">
-                <div class="footer-button">
-                  <button type="button" class="btn" style="color: white">
-                    CONTACT US
-                  </button>
-                </div>
-              </div>
+      <div
+        class="overlap container d-flex"
+        style="width: 1410px; height: 460px"
+      >
+        <div class="footer-info">
+          <h2>Click for Expert Construction Services</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
+            erat nibh. Sed rutrum turpis quis lacinia sollicitudin. Sed ac neque
+            cursus, ornare augue.
+          </p>
+          <div class="footer-button">
+            <button type="button" class="btn" style="color: white">
+              CONTACT US
+            </button>
+          </div>
+        </div>
+
+        <img src="photos/footer.png" alt="logo" />
+      </div>
+    </div>
+
+    <!--Clients details in footer section-->
+    <div class="footer" style="background: rgba(14, 14, 55, 0.92)">
+      <div
+        class="container d-flex align-items-center footer-details"
+        style="height: 700px"
+      >
+        <div class="col">
+          <div class="client-details">
+            <img src="photos/Client-footerlogo.png" />
+            <p class="fs-6 text-white mt-3 footer-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              imperdiet varius neque. Suspendisse interdum nulla vel nisl
+              vulputate rutrum.
+            </p>
+            <div class="d-flex mt-3" style="gap: 15px">
+              <img src="photos/facebook.png" />
+              <img src="photos/twitter.png" />
+              <img src="photos/pinterest.png" />
+              <img src="photos/youtube.png" />
             </div>
           </div>
-          <div class="master">
-            <img src="photos/footer.png" style="width: 400px" />
+        </div>
+        <div class="col">
+          <div class="logo-two">
+            <p class="fs-4 text-white fw-bold mb-3">Quick Links</p>
+            <p class="fs-6 text-white">
+              <img src="photos/iwwa_arrow-up.png" /> Home
+            </p>
+            <p class="fs-6 text-white">
+              <img src="photos/iwwa_arrow-up.png" /> Services
+            </p>
+            <p class="fs-6 text-white">
+              <img src="photos/iwwa_arrow-up.png" /> Contact Us
+            </p>
+            <p class="fs-6 text-white">
+              <img src="photos/iwwa_arrow-up.png" /> FAQs
+            </p>
+            <p class="fs-6 text-white">
+              <img src="photos/iwwa_arrow-up.png" /> Terms and conditions
+            </p>
+            <p class="fs-6 text-white">
+              <img src="photos/iwwa_arrow-up.png" /> Privacy Policy
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="contact">
+            <p class="fs-4 text-white fw-bold">Contact Us</p>
+            <p class="fs-6 text-white location-client">
+              <img src="photos/ep_location.png" /> KLLG st, No.99, Pku City, ID
+              28289
+            </p>
+            <p class="fs-6 text-white">
+              <img src="photos/solar_phone-linear.png" /> 0761-8523-398
+            </p>
+            <p class="fs-6 text-white">
+              <img src="photos/ion_mail-outline.png" /> hello@domainsite.com
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="logo-four subscribe-section">
+            <p class="fs-4 text-white fw-bold">Subscribe News Letter</p>
+            <p class="fs-6 text-white subscribe-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              incididunt.
+            </p>
+            <div class="d-flex bg-white">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Mail"
+                required
+                class="border-0 btn-xxl"
+              />
+              <button
+                style="background-color: #fd810a"
+                class="text-white border-0 subscribe-button"
+              >
+                SUBSCRIBE
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="container footer" style="background: rgba(14, 14, 55, 0.92)">
-        <div
-          class="row d-flex justify-content-center align-items-center"
-          style="height: 600px"
-        >
-          <div class="col">
-            <div class="logo-one">
-              <img src="photos/company_logo.png" />
-              <p class="fs-6 text-white mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                imperdiet varius neque. Suspendisse interdum nulla vel nisl
-                vulputate rutrum.
-              </p>
-              <div class="d-flex mt-3 soical-icons" style="gap: 10px">
-                <img src="photos/facebook.png" />
-                <img src="photos/twitter.png" />
-                <img src="photos/pinterest.png" />
-                <img src="photos/youtube.png" />
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="logo-two">
-              <p class="fs-4 text-white fw-bold mb-3">Quick Links</p>
-              <p class="fs-6 text-white">
-                <img src="photos/arrow-up.png" /> Home
-              </p>
-              <p class="fs-6 text-white">
-                <img src="photos/iwwa_arrow-up.png" /> Services
-              </p>
-              <p class="fs-6 text-white">
-                <img src="photos/iwwa_arrow-up.png" /> Contact Us
-              </p>
-              <p class="fs-6 text-white">
-                <img src="photos/iwwa_arrow-up.png" /> FAQs
-              </p>
-              <p class="fs-6 text-white">
-                <img src="photos/iwwa_arrow-up.png" /> Terms and conditions
-              </p>
-              <p class="fs-6 text-white">
-                <img src="photos/iwwa_arrow-up.png" /> Privacy Policy
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="logo-three">
-              <p class="fs-4 text-white fw-bold">Contact Us</p>
-              <p class="fs-6 text-white">
-                <img src="photos/ep_location.png" /> KLLG st, No.99, Pku City,
-                ID 28289
-              </p>
-              <p class="fs-6 text-white">
-                <img src="photos/solar_phone-linear.png" /> 0761-8523-398
-              </p>
-              <p class="fs-6 text-white">
-                <img src="photos/ion_mail-outline.png" /> hello@domainsite.com
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="logo-four">
-              <p class="fs-4 text-white fw-bold">Subscribe News Letter</p>
-              <p class="fs-6 text-white">
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua
-                incididunt.
-              </p>
-              <div class="d-flex bg-white">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Your Mail"
-                  required
-                  class="border-0 btn-lg"
-                />
-                <button class="btn-warning text-white fs-5 border-0 btn-lg">
-                  SUBSCRIBE
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="container copyright">
+        <hr style="color: white" />
+        <p class="text-center" style="color: white">
+          Copyright © 2024 Rometheme. All Rights Reserved.
+        </p>
       </div>
     </div>
   </body>
